@@ -334,6 +334,9 @@ width: 100%;
         
         margin: 5px;
     }
+    .tables__h1{
+        margin: 5px;
+    }
 }
 
 ::-webkit-scrollbar {
