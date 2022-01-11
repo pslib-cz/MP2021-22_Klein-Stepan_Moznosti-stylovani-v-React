@@ -2,6 +2,7 @@ html{
     background-color: #040E21;
     font-size: 20px;
     color: rgb(255, 255, 255);
+   
 }
 body{
     background-color: #040E21;
@@ -144,10 +145,14 @@ width: 100%;
     max-width: 381px;
     
 }
+.leaderboard__placements{
+    height: 50vh;
+    overflow-y: auto;
+}
 .leaderboard__btns__btn{
     
-    
-    padding: 3px 8px ;
+    width: 45%;
+    padding: 3px 0px ;
     text-align: center;
     border: 2px solid rgb(255, 255, 255);
    margin-left: 5px;
@@ -165,7 +170,17 @@ width: 100%;
     display: block;
     
 }
+.leaderboard__line{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+.leaderboard__sum{
+    display: flex;
+    justify-content: space-around;
 
+}
 .lbBtn{
     position: relative;
     display: flex;
@@ -190,20 +205,20 @@ width: 100%;
      height:14px  ;
      fill: #fff  ;
      width: 9.076px  ;
-     transition: all 1s;
+     transition: all 0.5s;
  }
  #Rectangle_4{
      transform: translate(388.882px, 40px)  ;
      height:23px  ;
      fill: #fff  ;  ;
      width: 9.076px   ;
-     transition: all 1s;
+     transition: all 0.5s;
   }
  #Rectangle_5{
      transform: translate(395.958px, 54px) ;
      fill: #fff  ; 
      width: 9.076px   ;
-     transition: all 1s;
+     transition: all 0.5s;
   }
 
 
@@ -215,19 +230,19 @@ width: 100%;
     height:23px  ;
     fill: red  ;
     width: 2px ;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 .lbBtn__svg_cross  #Rectangle_4{
     transform: translate(388.882px, 20px)  ;
     fill: rgba(0,0,0,0);
-    transition: all 1s;
+    transition: all 0.5s;
  }
  .lbBtn__svg_cross  #Rectangle_5{
     transform: translate(401.307px, 42.661px) rotate(45deg)  ;
     height:23px  ;
     fill: red  ;
     width: 2px  ;
-    transition: all 1s;
+    transition: all 0.5s;
  }
 /*Placement*/
 
@@ -262,3 +277,79 @@ width: 100%;
    
     margin-right: 20px;
 }
+@media (min-width: 651px) {
+   
+    .lbBtn{
+        display: none;
+    }
+    .leaderboard{
+        position: static;
+        display: block;
+        width: 37%;
+      height: unset;
+        
+    }
+    .leaderboard__content{
+        position: sticky;
+        margin: 15px ;
+        max-width: 381px;
+        top: 0;
+    }
+    .App{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: stretch;
+    }
+    .tables{
+        margin: 20px 15px;
+        width: calc(67% - 30px);
+        margin-bottom: 80px;
+    }
+}
+@media (min-width: 1041px) {
+   
+   
+    .leaderboard{
+       
+        width: 240px;
+        min-height: 100vh;
+        
+    }
+
+  
+    .tables{
+        margin: 20px 5px;
+        width: calc(100% - 260px);
+        margin-bottom: 80px;
+
+    }
+    .tables__grp{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .table{
+        
+        margin: 5px;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #040E21;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: #164bad;
+  }
+  
+ 
+  ::-webkit-scrollbar-thumb:hover {
+    background: #013eb1;
+  }

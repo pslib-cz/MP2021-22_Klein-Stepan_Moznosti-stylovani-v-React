@@ -40,8 +40,8 @@ import classNames from 'classnames';
             <div className='leaderboard__placements'>
             {PlacementGrp}
             </div>
-            <span className='leaderboard__line' />
-            <p className='leaderboard__sum'>Celkem: {total}</p>
+            <div className='leaderboard__line' />
+            <p className='leaderboard__sum'><span>Celkem: </span><span></span><span>{total}</span></p>
             <div className='leaderboard__btns'><button className='leaderboard__btns__btn' onClick={e =>
                     dispatch({type: RESET})
                 }>Reset</button>&nbsp;

@@ -21,9 +21,13 @@ const Placement = ({index, tableIndex, suma }) => {
             return ( (suma ) / (max ))*100;
 
         }  ;
+
     return (
         <div className='placement'>
-                <div style={{width: `${width()}%`}}  className='placement__bg'></div>
+                <div style={{  
+                 width: `${width()}%`,
+                transition: "width 0.3s"
+            }}  className='placement__bg'></div>
                 <div  className='placement__content'><span>{index + 1}.</span>  <span className='placement__content__table'>Stůl: {tableIndex+1}</span> <span>{suma}</span></div>
                 
         </div>
