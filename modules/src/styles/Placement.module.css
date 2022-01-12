@@ -1,0 +1,31 @@
+.placement{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+}
+.bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100% ;
+    height: 100% ;
+    background-color: #040E21;
+    border-radius: 4px;
+    z-index: 70;
+}
+.content{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100% ;
+    height: 100% ;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.table{
+   
+    margin-right: 20px;
+}

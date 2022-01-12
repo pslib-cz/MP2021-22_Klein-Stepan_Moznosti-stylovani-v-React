@@ -1,0 +1,144 @@
+.leaderboard{
+    display: none;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #113A87;
+    z-index: 50;
+}
+.content{
+    margin: 15px auto;
+    max-width: 381px;
+    
+}
+.placements{
+    height: 50vh;
+    overflow-y: auto;
+}
+.btn{
+    
+    width: 45%;
+    padding: 3px 0px ;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+   margin-left: 5px;
+    border-radius: 4px;
+    background-color: #040E21;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.show{
+    display: block;
+    
+}
+.line{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+.sum{
+    display: flex;
+    justify-content: space-around;
+
+}
+.lbBtn{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.svg{
+    position: absolute;
+    top: 40px;
+    right: calc((100vw - 381px) * 0.5);
+    z-index: 100;
+}
+
+
+
+/*Btn */
+
+ .group{
+    transform: translate(-383.035px, -40px) ;
+ }
+ .rectangle1{
+     transform: translate(382.035px, 49px)  ;
+     height:14px  ;
+     fill: #fff  ;
+     width: 9.076px  ;
+     transition: all 0.5s;
+ }
+ .rectangle2{
+     transform: translate(388.882px, 40px)  ;
+     height:23px  ;
+     fill: #fff  ;  ;
+     width: 9.076px   ;
+     transition: all 0.5s;
+  }
+ .rectangle3{
+     transform: translate(395.958px, 54px) ;
+     fill: #fff  ; 
+     width: 9.076px   ;
+     transition: all 0.5s;
+  }
+
+
+  .svgCross > .group{
+   transform: translate(-386.043px, -42.661px) ;
+}
+.svgCross  .rectangle1{
+    transform: translate(385.043px, 44.075px) rotate(-45deg)  ;
+    height:23px  ;
+    fill: red  ;
+    width: 2px ;
+    transition: all 0.5s;
+}
+.svgCross  .rectangle2{
+    transform: translate(388.882px, 20px)  ;
+    fill: rgba(0,0,0,0);
+    transition: all 0.5s;
+ }
+ .svgCross  .rectangle3{
+    transform: translate(401.307px, 42.661px) rotate(45deg)  ;
+    height:23px  ;
+    fill: red  ;
+    width: 2px  ;
+    transition: all 0.5s;
+ }
+
+ @media (min-width: 651px) {
+   
+    .lbBtn{
+        display: none;
+    }
+    .leaderboard{
+        position: static;
+        display: block;
+        width: 37%;
+      height: unset;
+        
+    }
+    .content{
+        position: sticky;
+        margin: 15px ;
+        max-width: 381px;
+        top: 0;
+    }
+
+}
+@media (min-width: 1041px) {
+    .leaderboard{
+       
+        width: 240px;
+        min-height: 100vh;
+        
+    }
+}

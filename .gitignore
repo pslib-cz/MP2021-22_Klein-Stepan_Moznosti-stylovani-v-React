@@ -4,7 +4,9 @@
 /external-css/node_modules
 /external-css/.pnp
 /external-css/.pnp.js
-
+/modules/node_modules
+/modules/.pnp
+/modules/.pnp.js
 # testing
 /coverage
 
