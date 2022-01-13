@@ -1,0 +1,39 @@
+html{
+    background-color: #040E21;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+   
+}
+body{
+    background-color: #040E21;
+    color: rgb(255, 255, 255);
+    
+}
+@media (min-width: 651px) {
+
+    .App{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #040E21;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: #164bad;
+  }
+  
+ 
+  ::-webkit-scrollbar-thumb:hover {
+    background: #013eb1;
+  }

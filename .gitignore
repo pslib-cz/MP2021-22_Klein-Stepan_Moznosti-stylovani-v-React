@@ -7,6 +7,11 @@
 /modules/node_modules
 /modules/.pnp
 /modules/.pnp.js
+/styled-components/node_modules
+/styled-components/.pnp
+/styled-components/.pnp.js
+
+
 # testing
 /coverage
 
