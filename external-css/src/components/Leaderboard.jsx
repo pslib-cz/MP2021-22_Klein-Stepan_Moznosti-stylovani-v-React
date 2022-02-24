@@ -12,7 +12,7 @@ import classNames from 'classnames';
  
 
 
-  const Tables = () => {
+  const Leaderboard = () => {
     const [state, dispatch] = useContext(SFContext);
     const PlacementJson = state.tables.map((itm, idx) => 
         [{key:idx, index: idx, tableIndex: idx, suma: arrSum(itm)}][0]);
@@ -23,8 +23,8 @@ import classNames from 'classnames';
     return (
 
         <>
-          <div className='lbBtn ' onClick={()=> setLbBool(!lbBool)}>
-            <svg className={classNames("lbBtn__svg", {lbBtn__svg_cross: lbBool})} xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+          <div className='leaderboard_btn ' onClick={()=> setLbBool(!lbBool)}>
+            <svg className={classNames("leaderboard_btn__svg", {"leaderboard_btn__svg--cross": lbBool})} xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
               <g id="Group_3" data-name="Group 3" transform="">
                 <g id="Group_20" data-name="Group 20" transform="translate(1)">
                   <rect id="Rectangle_3" data-name="Rectangle 3" />
@@ -55,4 +55,4 @@ import classNames from 'classnames';
     );
 }
 
-export default Tables;
+export default Leaderboard;

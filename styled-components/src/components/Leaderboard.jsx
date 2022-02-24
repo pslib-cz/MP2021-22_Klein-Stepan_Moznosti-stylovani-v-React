@@ -33,12 +33,28 @@ import styled , { css } from 'styled-components';
       }
     }}
   
-  
+    @media (min-width: 651px) {
+      position: static;
+        display: block;
+        width: 37%;
+      height: unset;
+    }
+
+    @media (min-width: 1041px) {
+      width: 240px;
+      min-height: 100vh;
+    }
     `;
   
     const Content = styled.div`
     margin: 15px auto;
     max-width: 381px;
+    @media (min-width: 651px) {
+      position: sticky;
+      margin: 15px ;
+      max-width: 381px;
+      top: 0;
+    }
     `;
   
     const Placements = styled.div`
@@ -83,6 +99,9 @@ import styled , { css } from 'styled-components';
     position: relative;
     display: flex;
     align-items: flex-end;
+    @media (min-width: 651px) {
+      display: none;
+    }
     `;
   
     const Svg = styled.svg`
@@ -131,14 +150,12 @@ import styled , { css } from 'styled-components';
         return css`
         transform: translate(388.882px, 20px) ;
         fill: rgba(0,0,0,0);
-        
         `;
       }
       else{
         return css`
         transform: translate(388.882px, 40px);
         fill: #fff;  
-  
         `;
       }
     }}`;

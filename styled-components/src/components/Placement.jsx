@@ -17,7 +17,8 @@ const Bg = styled.div`
 position: absolute;
 left: 0;
 top: 0;
-width:100% ;
+width:${props => props.width + "%" || "100%"};
+transition: width 0.3s;
 height: 100% ;
 background-color: #040E21;
 border-radius: 4px;
@@ -55,10 +56,7 @@ const Placement = ({index, tableIndex, suma }) => {
 
     return (
         <PlacementDiv>
-                <Bg style={{  
-                 width: `${width()}%`,
-                transition: "width 0.3s"
-            }}></Bg>
+                <Bg width={width()}></Bg>
                 <Content ><span>{index + 1}.</span>  <Table >Stůl: {tableIndex+1}</Table> <span>{suma}</span></Content>
                 
         </PlacementDiv>

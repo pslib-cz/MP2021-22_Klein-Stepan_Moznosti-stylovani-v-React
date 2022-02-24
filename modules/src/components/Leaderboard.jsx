@@ -12,7 +12,7 @@ import classNames from 'classnames';
  
 
 
-  const Tables = () => {
+  const Leaderboard = () => {
     const [state, dispatch] = useContext(SFContext);
     const PlacementJson = state.tables.map((itm, idx) => 
         [{key:idx, index: idx, tableIndex: idx, suma: arrSum(itm)}][0]);
@@ -55,4 +55,4 @@ import classNames from 'classnames';
     );
 }
 
-export default Tables;
+export default Leaderboard;

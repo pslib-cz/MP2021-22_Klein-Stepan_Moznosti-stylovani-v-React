@@ -15,9 +15,6 @@ import styles from "../styles/Tables.module.css";
     return (
         <div className={styles.tables}>
             <h1 className={styles.h1}>{state.name}</h1>
-          
-              
-          
             <div className={styles.grp}>
                 {tablesGrp}
             </div>

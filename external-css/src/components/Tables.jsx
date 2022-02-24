@@ -1,5 +1,4 @@
-import React, {useContext} from 'react';
-
+  import React, {useContext} from 'react';
   import Table from "./Table";
   import {SFContext, ADD_TABLE, REMOVE_TABLE} from '../providers/SandwichFeastProvider';
 
@@ -15,9 +14,6 @@ import React, {useContext} from 'react';
     return (
         <div className='tables'>
             <h1 className='tables__h1'>{state.name}</h1>
-          
-              
-          
             <div className='tables__grp'>
                 {tablesGrp}
             </div>

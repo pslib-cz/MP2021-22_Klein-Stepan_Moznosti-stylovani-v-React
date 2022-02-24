@@ -181,20 +181,20 @@ width: 100%;
     justify-content: space-around;
 
 }
-.lbBtn{
+.leaderboard_btn{
     position: relative;
     display: flex;
     align-items: flex-end;
     
 }
-.lbBtn__svg{
+.leaderboard_btn__svg{
     position: absolute;
     top: 40px;
     right: calc((100vw - 381px) * 0.5);
     z-index: 100;
 }
-.lbBtn__svg_cross{
-
+.leaderboard_btn__svg--cross{
+    position: fixed;
     
 }
  #Group_3{
@@ -222,22 +222,22 @@ width: 100%;
   }
 
 
-.lbBtn__svg_cross > #Group_3{
+.leaderboard_btn__svg--cross > #Group_3{
    transform: translate(-386.043px, -42.661px) ;
 }
-.lbBtn__svg_cross  #Rectangle_3{
+.leaderboard_btn__svg--cross  #Rectangle_3{
     transform: translate(385.043px, 44.075px) rotate(-45deg)  ;
     height:23px  ;
     fill: red  ;
     width: 2px ;
     transition: all 0.5s;
 }
-.lbBtn__svg_cross  #Rectangle_4{
+.leaderboard_btn__svg--cross  #Rectangle_4{
     transform: translate(388.882px, 20px)  ;
     fill: rgba(0,0,0,0);
     transition: all 0.5s;
  }
- .lbBtn__svg_cross  #Rectangle_5{
+ .leaderboard_btn__svg--cross  #Rectangle_5{
     transform: translate(401.307px, 42.661px) rotate(45deg)  ;
     height:23px  ;
     fill: red  ;
@@ -279,7 +279,7 @@ width: 100%;
 }
 @media (min-width: 651px) {
    
-    .lbBtn{
+    .leaderboard_btn{
         display: none;
     }
     .leaderboard{

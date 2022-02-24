@@ -10,7 +10,9 @@
 /styled-components/node_modules
 /styled-components/.pnp
 /styled-components/.pnp.js
-
+/bootstrap/node_modules
+/bootstrap/.pnp
+/bootstrap/.pnp.js
 
 # testing
 /coverage
