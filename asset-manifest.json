@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MP2021-22_Klein-Stepan_Moznosti-stylovani-v-React/static/css/main.1ab276cf.chunk.css",
+    "main.js": "/MP2021-22_Klein-Stepan_Moznosti-stylovani-v-React/static/js/main.4c98128e.chunk.js",
+    "main.js.map": "/MP2021-22_Klein-Stepan_Moznosti-stylovani-v-React/static/js/main.4c98128e.chunk.js.map",
+    "runtime-main.js": "/MP2021-22_Klein-Stepan_Moznosti-stylovani-v-React/static/js/runtime-main.4886a1b7.js",
+    "runtime-main.js.map": "/MP2021-22_Klein-Stepan_Moznosti-stylovani-v-React/static/js/runtime-main.4886a1b7.js.map",
+    "static/js/2.a53f5ffa.chunk.js": "/MP2021-22_Klein-Stepan_Moznosti-stylovani-v-React/static/js/2.a53f5ffa.chunk.js",
+    "static/js/2.a53f5ffa.chunk.js.map": "/MP2021-22_Klein-Stepan_Moznosti-stylovani-v-React/static/js/2.a53f5ffa.chunk.js.map",
+    "static/js/3.850bbb76.chunk.js": "/MP2021-22_Klein-Stepan_Moznosti-stylovani-v-React/static/js/3.850bbb76.chunk.js",
+    "static/js/3.850bbb76.chunk.js.map": "/MP2021-22_Klein-Stepan_Moznosti-stylovani-v-React/static/js/3.850bbb76.chunk.js.map",
+    "index.html": "/MP2021-22_Klein-Stepan_Moznosti-stylovani-v-React/index.html",
+    "static/css/main.1ab276cf.chunk.css.map": "/MP2021-22_Klein-Stepan_Moznosti-stylovani-v-React/static/css/main.1ab276cf.chunk.css.map",
+    "static/js/2.a53f5ffa.chunk.js.LICENSE.txt": "/MP2021-22_Klein-Stepan_Moznosti-stylovani-v-React/static/js/2.a53f5ffa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4886a1b7.js",
+    "static/js/2.a53f5ffa.chunk.js",
+    "static/css/main.1ab276cf.chunk.css",
+    "static/js/main.4c98128e.chunk.js"
+  ]
+}
